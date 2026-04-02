@@ -2,7 +2,7 @@
 
 FROM mcr.microsoft.com/vscode/devcontainers/cpp:dev-debian13 AS build
 
-ADD https://git.openldap.org/openldap/openldap.git#OPENLDAP_REL_ENG_2_6_13 /tmp/openldap
+ADD https://github.com/openldap/openldap.git#OPENLDAP_REL_ENG_2_6_13 /tmp/openldap
 
 COPY customize.sh /tmp/openldap/customize.sh
 
