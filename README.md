@@ -32,8 +32,8 @@ volumes:
 
 | Tag                                          | OpenLDAP version | Base OS        |
 |----------------------------------------------|------------------|----------------|
-| `latest`, `2.7`, `2.7.0`, `2.7.0-debian-13`  | 2.7.0            | Debian 13 slim |
-| `2.6`, `2.6.14`, `2.6.14-debian-13`          | 2.6.14           | Debian 13 slim |
+| `latest`, `2.7`, `2.7.1`, `2.7.1-debian-13`  | 2.7.1            | Debian 13 slim |
+| `2.6`, `2.6.15`, `2.6.15-debian-13`          | 2.6.15           | Debian 13 slim |
 
 `latest` follows the most recent release line, currently 2.7. Pin `2.6` to stay on the previous line.
 
@@ -74,8 +74,8 @@ This uses the OpenLDAP version set as the `ARG` defaults in that Dockerfile. To 
 
 ```sh
 docker build \
-  --build-arg OPENLDAP_VERSION=2.7.0 \
-  --build-arg OPENLDAP_GIT_TAG=OPENLDAP_REL_ENG_2_7_0 \
+  --build-arg OPENLDAP_VERSION=2.7.1 \
+  --build-arg OPENLDAP_GIT_TAG=OPENLDAP_REL_ENG_2_7_1 \
   -t openldap:local .
 ```
 

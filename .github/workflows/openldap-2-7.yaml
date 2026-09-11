@@ -18,7 +18,7 @@ jobs:
     env:
       REGISTRY: ghcr.io
       IMAGE_NAME: Ripolin/openldap
-      OPENLDAP_VERSION: 2.7.0
+      OPENLDAP_VERSION: 2.7.1
 
     steps:
       - name: Checkout repository
