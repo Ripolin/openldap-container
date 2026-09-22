@@ -1,5 +1,8 @@
 # Bitnami-compatible OpenLDAP image
 
+> **Archived.** This repository is no longer maintained here. Development continues at
+> [genesary/openldap-container](https://github.com/genesary/openldap-container).
+
 A drop-in replacement for the [Bitnami OpenLDAP image](https://github.com/bitnami/containers/blob/main/bitnami/openldap/README.md), built entirely from open-source components.
 
 **Key differences from the official Bitnami image:**
